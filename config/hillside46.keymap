@@ -109,9 +109,9 @@
  *                                 |       |       |       |  ADJ_L |---|      |       |       |       |
  */
                         bindings = <
-&kp  INS      &kp  EXCL     &kp  AT       &kp  HASH     &kp  DOLLAR   &kp  PERCENT                                                                   &kp  CARET    &kp  AMPS     &kp  ASTRK    &kp  LPAR     &kp  RPAR     &kp DEL
-&none         &kp  BSLH     &kp  MINUS    &kp  EQUAL    &kp  LBKT     &kp  RBKT                                                                      &kp  HOME     &kp  RSHFT    &kp  RCTRL    &kp  LALT     &kp  RGUI     &kp END
-&trans        &kp  PIPE     &kp  UNDER    &kp  PLUS     &kp  LBRC     &kp  RBRC     &sk  RALT                                          &kp K_APP     &kp  C_MUTE   &kp  C_VOL_DN &kp  C_VOL_UP &kp  C_PP     &none         &kp RCTRL
+&kp  INS      &kp  F1     &kp  F2       &kp  F3     &kp  F4   &kp  F5                                                                   &kp  CARET    &kp  AMPS     &kp  ASTRK    &trans     &kp  RIGHT     &kp DEL
+&none         &kp  F6     &kp  F7    &kp  F8    &kp  F9     &kp  F10                                                                      &kp  HOME     &kp  LEFT    &kp  RCTRL    &trans     &kp  RGUI     &kp END
+&trans        &kp  F11     &kp  F12    &kp  DOWN     &kp  UP     &kp  RBRC     &sk  RALT                                          &kp K_APP     &trans   &kp  C_VOL_DN &kp  C_VOL_UP &kp  C_PP     &none         &kp RCTRL
                                                         &trans        &trans        &trans       &mo  ADJ_L               &trans       &trans        &trans        &trans
                         >;
 			
