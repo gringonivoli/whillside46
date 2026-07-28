@@ -109,9 +109,9 @@
  *                                 |       |       |       |  ADJ_L |---|      |       |       |       |
  */
                         bindings = <
-&kp  INS      &kp  F1     &kp  F2       &kp  F3     &kp  F4   &kp  F5                                                                   &kp  CARET    &kp  AMPS     &kp  ASTRK    &trans     &kp  RIGHT     &kp DEL
-&none         &kp  F6     &kp  F7    &kp  F8    &kp  F9     &kp  F10                                                                      &kp  HOME     &kp  LEFT    &kp  RCTRL    &trans     &kp  RGUI     &kp END
-&trans        &kp  F11     &kp  F12    &kp  DOWN     &kp  UP     &kp  RBRC     &sk  RALT                                          &kp K_APP     &trans   &kp  LG(MINUS) &kp  LG(EQUAL) &kp  C_PP     &none         &kp RCTRL
+&trans      &kp  F1     &kp  F2       &kp  F3     &kp  F4   &kp  F5                                                                   &kp  CARET    &kp  AMPS     &kp  ASTRK    &trans     &kp  RIGHT     &kp DEL
+&trans         &kp  F6     &kp  F7    &kp  F8    &kp  F9     &kp  F10                                                                      &kp  HOME     &kp  LEFT    &kp  RCTRL    &trans     &kp  RGUI     &kp END
+&trans        &kp  F11     &kp  F12    &kp  DOWN     &kp  UP     &kp  LG(LA(I))     &sk  RALT                                          &kp K_APP     &trans   &kp  LG(MINUS) &kp  LG(EQUAL) &kp  C_PP     &none         &kp RCTRL
                                                         &trans        &trans        &trans       &mo  ADJ_L               &trans       &trans        &trans        &trans
                         >;
 			
