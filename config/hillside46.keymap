@@ -110,7 +110,7 @@
  */
                         bindings = <
 &trans      &kp  F1     &kp  F2       &kp  F3     &kp  F4   &kp  F5                                                                                  &kp  CARET    &kp  AMPS    &kp  LC(LEFT)     &kp LC(RIGHT)   &kp  RIGHT    &kp DEL
-&trans         &kp  F6     &kp  F7    &kp  F8    &kp  F9     &kp  F10                                                                                &kp  HOME     &kp  LEFT    &kp  LC(LS(TAB))  &kp LC(TAB)     &kp  RGUI     &kp END
+&trans         &kp  F6     &kp  F7    &kp  F8    &kp  F9     &kp  F10                                                                                &kp  HOME     &kp  LEFT    &kp  LG(LS(MINUS))  &kp LG(LS(EQUAL))     &kp  RGUI     &kp END
 &trans        &kp  F11     &kp  F12    &kp  DOWN     &kp  UP     &kp  LG(LA(I))     &sk  RALT                                          &kp K_APP     &trans        &trans       &kp  LG(MINUS)    &kp  LG(EQUAL)  &none         &kp RCTRL
                                                         &trans        &trans        &trans       &mo  ADJ_L               &trans       &trans        &trans        &trans
                         >;
